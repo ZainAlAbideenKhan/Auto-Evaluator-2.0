@@ -1,0 +1,64 @@
+/* Light Theme */
+.light {
+  color: #4d4d4d;
+}
+
+.light main {
+  background-color: #fff;
+}
+
+.light nav {
+  background-color: #ccc;
+}
+.light .theme-btn-container .sun-moon {
+  background-color: #080a0d;
+}
+.light .theme-btn-container .eclipse {
+  background-color: #ccc;
+  opacity: 1;
+}
+
+.light .largeLogo {
+  -webkit-text-stroke-color: #4d4d4d;
+}
+
+.light .input {
+  color: #3b3b3b;
+  border-color: #4d4d4d;
+}
+
+.light .button {
+  background-color: #cccccc;
+}
+
+/* Dark Theme */
+
+.dark {
+  background-color: #08090d;
+  color: #fff;
+}
+
+.dark main {
+  background-color: #08090d;
+}
+
+.dark nav {
+  background-color: #0d0f11;
+}
+
+.dark .input-container .label {
+  color: #08090d;
+}
+
+.dark .button {
+  background-color: #003cad;
+  color: #fff;
+}
+
+.dark .theme-btn-container .sun-moon {
+  background-color: #ccc;
+}
+.dark .theme-btn-container .eclipse {
+  background-color: #ccc;
+  opacity: 0;
+}

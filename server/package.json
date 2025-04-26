@@ -1,0 +1,15 @@
+{
+  "name": "auto-evaluator",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "express ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "express": "^5.1.0"
+  }
+}

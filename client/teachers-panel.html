@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher's Panel</title>
+    <link rel="stylesheet" href="./libs/color.css" />
+    <link rel="stylesheet" href="./libs/scroll-bar.css" />
+    <link rel="stylesheet" href="./libs/nav.css" />
+    <link rel="stylesheet" href="./libs/utility.css" />
+    <link rel="stylesheet" href="./libs/teachers-panel.css" />
+  </head>
+  <body class="dark">
+    <nav>
+      <div class="nav-title">Teacher's Panel</div>
+      <div class="theme-btn-container">
+        <div class="eclipse"></div>
+        <div class="sun-moon"></div>
+      </div>
+    </nav>
+    <main>
+      <h1 class="large-title">Hi, Name!</h1>
+      <div class="status-box" id="db-status-container">
+        <div class="status-title">Database Status</div>
+        <div class="status-body">
+          <div class="key-value-container">
+            <span class="key">Submission Received</span>
+            <span class="value" id="SubRcv-val">Number</span>
+          </div>
+          <div class="key-value-container">
+            <span class="key">Evaluation Performed</span>
+            <span class="value" id="EvalPerf-val">Number</span>
+          </div>
+          <div class="key-value-container">
+            <span class="key">Remaining (Not Evaluated Yet)</span>
+            <span class="value" id="RemEval-val">Number</span>
+          </div>
+        </div>
+      </div>
+      <div class="action-button-container">
+        <button class="button" id="tutorial-btn">Tutorial</button>
+        <button class="button" id="help-btn">Help</button>
+        <button class="button" id="sendSuggestion-btn">Send Suggestion</button>
+      </div>
+      <div class="status-box" id="count-status-container">
+        <div class="status-title">Count Status</div>
+        <div class="status-body">
+          <div class="key-value-container">
+            <span class="key">Number of Students</span>
+            <span class="value" id="numStu-val">Number</span>
+          </div>
+          <div class="key-value-container">
+            <span class="key">Number of Submissions</span>
+            <span class="value" id="numSubs-val">Number</span>
+          </div>
+        </div>
+      </div>
+      <div class="create-submission">
+        <div class="status-title">Create Submission</div>
+        <div class="status-body">
+          <div class="input-container">
+            <span class="label">Type</span>
+            <input type="text" id="sub_Type" class="input" />
+          </div>
+          <div class="input-container">
+            <span class="label">Submission Name</span>
+            <input type="text" id="subName" class="input" />
+          </div>
+          <div class="input-container">
+            <span class="label">Section/Group</span>
+            <input type="text" id="sec_group" class="input" />
+          </div>
+          <div class="input-container">
+            <span class="label">Set Last Date</span>
+            <input type="Date" id="lastDate" class="input" />
+          </div>
+          <div class="button-container">
+            <button class="button" id="createSub-btn">Create</button>
+            <button class="button" id="clear-btn">Clear</button>
+          </div>
+        </div>
+      </div>
+      <div class="panel-btn-container">
+        <button class="button" id="viewSub-btn">View Submissions</button>
+        <button class="button" id="viewEvalRes-btn">View Evaluated Result</button>
+        <button class="button" id="settings-btn">Settings</button>
+      </div>
+    </main>
+  </body>
+  <script src="./libs/utlity.js"></script>
+  <script src="./libs/teachers-panel.js"></script>
+</html>

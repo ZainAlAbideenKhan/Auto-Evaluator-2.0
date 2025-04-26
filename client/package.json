@@ -1,0 +1,11 @@
+{
+  "name": "auto_evaluator",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^35.2.1"
+  }
+}
