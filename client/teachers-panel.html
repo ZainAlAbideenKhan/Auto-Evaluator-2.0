@@ -60,7 +60,13 @@
         <div class="status-body">
           <div class="input-container">
             <span class="label">Type</span>
-            <input type="text" id="sub_Type" class="input" />
+            <select type="text" id="sub_Type" class="input">
+              <option selected></option>
+              <option value="assignment">Assignment</option>
+              <option value="project_report">Project Report</option>
+              <option value="extempore">Extempore</option>
+              <option value="practical_file">Practical File</option>
+            </select>
           </div>
           <div class="input-container">
             <span class="label">Submission Name</span>
@@ -82,7 +88,6 @@
       </div>
       <div class="panel-btn-container">
         <button class="button" id="viewSub-btn">View Submissions</button>
-        <button class="button" id="viewEvalRes-btn">View Evaluated Result</button>
         <button class="button" id="settings-btn">Settings</button>
       </div>
     </main>

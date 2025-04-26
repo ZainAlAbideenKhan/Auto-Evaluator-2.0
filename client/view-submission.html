@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Submission</title>
+    <link rel="stylesheet" href="./libs/color.css" />
+    <link rel="stylesheet" href="./libs/scroll-bar.css" />
+    <link rel="stylesheet" href="./libs/nav.css" />
+    <link rel="stylesheet" href="./libs/utility.css" />
+    <link rel="stylesheet" href="./libs/view-submission.css" />
+  </head>
+  <body class="dark">
+    <nav>
+      <div class="nav-title">Submission Panel</div>
+      <div class="theme-btn-container">
+        <div class="eclipse"></div>
+        <div class="sun-moon"></div>
+      </div>
+    </nav>
+    <main>
+      <h1 class="large-title">View Submission and Evaluation</h1>
+      <div class="status-box" id="groupInfo-container">
+        <div class="status-title">Group Info</div>
+        <div class="status-body">
+          <div class="input-container">
+            <span class="label">Submission Name</span>
+            <input type="text" id="subName" class="input" />
+          </div>
+          <button class="button" id="Load-btn">Load</button>
+        </div>
+      </div>
+      <div class="status-box" id="groupStatus-container">
+        <div class="status-title">Group Status</div>
+        <div class="status-body">
+          <div class="key-value-container">
+            <span class="key">Average Score</span>
+            <span class="value" id="avgScore-val">Number</span>
+          </div>
+          <div class="key-value-container">
+            <span class="key">Highest Score</span>
+            <span class="value" id="highScore-val">Number</span>
+          </div>
+          <div class="key-value-container">
+            <span class="key">Lowest Score</span>
+            <span class="value" id="lowScore-val">Number</span>
+          </div>
+        </div>
+      </div>
+      <div id="Evaluate">
+        <button class="button" id="Evaluate-btn" disabled>Evaluate</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Student Name</th>
+            <th>Date of Submission</th>
+            <th>Parameter 1</th>
+            <th>Parameter 2</th>
+            <th>Parameter 3</th>
+            <th>Parameter 4</th>
+            <th>Parameter 5</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </main>
+  </body>
+  <script src="./libs/utlity.js"></script>
+  <script src="./libs/view-submission.js"></script>
+</html>

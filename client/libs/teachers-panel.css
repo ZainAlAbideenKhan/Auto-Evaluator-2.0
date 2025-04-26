@@ -4,11 +4,13 @@ main {
   width: 100vw;
   display: grid;
   grid-template-columns: 10% 20% 40% 20% 10%;
-  grid-template-rows: 15% 10% 40% 35%;
+  grid-template-rows: 10% 10% 40% 15% 20%;
+  column-gap: 10px;
+  row-gap: 10px;
 }
 
 h1.large-title {
-  grid-row: 1 / 2;
+  grid-row: 2 / 3;
   grid-column: 2 / 3;
 }
 
@@ -31,12 +33,12 @@ h1.large-title {
 }
 
 #count-status-container {
-  grid-row: 4 / 5;
+  grid-row: 4 / 6;
   grid-column: 2 / 3;
 }
 
 .create-submission {
-  grid-row: 3 / 4;
+  grid-row: 3 / 5;
   grid-column: 3 / 4;
 }
 
@@ -47,4 +49,9 @@ h1.large-title {
   flex-direction: column;
   align-items: stretch;
   justify-content: space-evenly;
+}
+
+.panel-btn-container button {
+  height: 40%;
+  font-size: 1em;
 }

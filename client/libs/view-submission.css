@@ -1,0 +1,44 @@
+main {
+  top: 6vh;
+  height: 94vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 5% 30% 40% 40% 15%;
+  grid-template-columns: 2% 30% 68%;
+  row-gap: 10px;
+}
+
+.large-title {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+
+#groupInfo-container {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+}
+#groupStatus-container {
+  grid-row: 4 / 5;
+  grid-column: 2 / 3;
+}
+#Evaluate {
+  grid-row: 5 / 6;
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Evaluate-btn {
+  width: 80%;
+  height: 60%;
+}
+table {
+  grid-row: 1 / 6;
+  grid-column: 3 / 5;
+  width: 100%;
+}
+
+th {
+  background-color: #003cad;
+  padding: 10px 10px;
+}
